@@ -52,5 +52,5 @@ var id = null;
 function MyMove() {
 alert("Coming Soon - قـريــبا");
 window.open("../../index.html");
-
+close();
 };
