@@ -3,6 +3,41 @@
     font-family: LEMONMILK;
 }
 
+* {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+#Sedik {
+    font-size: 12px;
+    text-align: right;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    border-radius: 14px;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #E99C54;
+}
+
+hr {
+    height: 10px;
+    background-color: black;
+}
+
 body {
     background-image: url("../../IMG/bg2.jpg");
     background-size: 65%;
@@ -16,86 +51,62 @@ header {
     font-family: 'Rubik', sans-serif;
 }
 
-h1 {
-    text-align: right;
-}
-
-.ex {
-    float: right;
+#div1 {
+    position: absolute;
+    width: 99%;
+    height: 80%;
     background-color: black;
-    color: white;
-    border-radius: 20px;
-    font-size: 9px;
-    font-family: 'Rubik', sans-serif;
-    padding: 0 10px 0 10px;
-    margin-left: 10px;
-    margin-top: 40px;
+    border-radius: 30px;
 }
 
-#return {
-    margin-top: 20px;
+.mwad {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 380px;
+    padding-bottom: 380px;
+    padding-left: 20px;
+    font-size: 20px;
 }
 
-.m7twa {
-    float: right;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    font-size: 9px;
-    font-family: 'Rubik', sans-serif;
-    padding: 0 10px 0 10px;
-    margin-left: 10px;
+.Math:hover {
+    text-decoration-line: underline;
+    font-size: 45px;
 }
 
 img {
-    background-color: white;
-    border-radius: 15px;
-    width: 30px;
-    height: 30px;
-    float: inline-start;
+    width: 90px;
+    height: 90px;
 }
 
-.ex:hover {
-    text-decoration-line: underline;
-    font-size: 11px;
-    color: #E99C54;
-}
-
-img:hover {
-    background-color: #E99C54;
-}
-
-#lyce1 {
+#lyce {
     font-family: LEMONMILK;
-    font-size: 13px;
     text-align: center;
-    padding-top: 400px;
 }
 
-h1:hover {
-    text-decoration-line: underline;
-    color: #E99C54;
+#Arrow {
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
 }
 
-#face {
-    position: absolute;
-    bottom: 2%;
-    right: 50%;
-    size: 50mm;
+#Arrow:hover {
+    width: 45px;
+    height: 45px;
 }
 
-@keyframes click {
+@keyframes download {
     0% {
-        font-size: 16px;
+        transform: translateY(-100%);
+        opacity: 0;
     }
     50% {
-        font-size: 17px;
+        transform: translateY(30%);
+        opacity: 0.5;
     }
     100% {
-        font-size: 18px;
-    }
-    0% {
-        font-size: 16px;
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 
@@ -103,13 +114,16 @@ h1:hover {
     0% {
         transform: translateZ(-100%);
         opacity: 0;
+        color: #444444;
     }
     50% {
         transform: translateZ(30%);
         opacity: 0.5;
+        color: #202020;
     }
     100% {
         transform: translateZ(0);
         opacity: 1;
+        color: #000;
     }
 }
