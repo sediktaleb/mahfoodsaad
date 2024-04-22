@@ -29,12 +29,13 @@ h1 {
     font-family: 'Rubik', sans-serif;
     padding: 0 10px 0 10px;
     margin-left: 10px;
-    margin-top:20px;
+    margin-top: 40px;
+}
 
+#return {
+    margin-top: 20px;
 }
-#return{
-    margin-top:20px;
-}
+
 .m7twa {
     float: right;
     background-color: black;
@@ -71,10 +72,6 @@ img:hover {
     padding-top: 400px;
 }
 
-#istfsar1 {
-    float: left;
-}
-
 h1:hover {
     text-decoration-line: underline;
     color: #E99C54;
@@ -106,14 +103,13 @@ h1:hover {
     0% {
         transform: translateZ(-100%);
         opacity: 0;
-      }
-      50% {
+    }
+    50% {
         transform: translateZ(30%);
         opacity: 0.5;
-
-      }
-      100% {
+    }
+    100% {
         transform: translateZ(0);
         opacity: 1;
-      }
-  }
+    }
+}
