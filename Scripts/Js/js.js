@@ -21,7 +21,7 @@ document.getElementById("Physic").addEventListener("click",function(){
         function Physic(){
 
             
-            window.open ("Scripts/Html/Physic.html");
+            window.open ("Scripts/Html/Physssic.html");
             close();
         };
 document.getElementById("Sience").addEventListener("click",function(){
