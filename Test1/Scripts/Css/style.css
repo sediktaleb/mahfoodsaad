@@ -1,0 +1,127 @@
+@font-face{
+    src: url(../../IMG/LEMONMILK-Bold.otf);
+    font-family: LEMONMILK;
+}
+*{text-align: center;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 14px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E99C54; 
+  }
+hr{
+    height: 10px;
+    background-color: black;
+}
+body{
+    background-image: url("../../IMG/bg2.jpg");
+    background-size: 65%;
+    background-position: 50%;
+    
+}
+
+header {
+        background-color: black;
+        border-radius: 30px;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    #div1 {
+        position: absolute;
+        width: 99%;
+        height: 80%;
+        background-color: black;
+        border-radius: 30px;
+    }
+    
+    .mwad {
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        padding-top: 380px;
+        padding-bottom: 380px;
+        padding-left: 20px;
+        font-size: 20px; 
+        
+    }
+    .Math:hover{
+        text-decoration-line:  underline; 
+        font-size: 45px;
+    }
+img{
+    width: 90px;
+    height: 90px;
+}
+#lyce{
+    font-family: LEMONMILK;
+text-align: center;}
+#Arrow{
+    width: 40px;
+    height: 40px;
+    color: black;
+    text-align: center;
+}
+#Arrow:hover{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes download {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(30%);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes bonuce {
+    0% {
+        transform: translateZ(-100%);
+        opacity: 0;
+        color: #444444;
+      }
+      50% {
+        transform: translateZ(30%);
+        opacity: 0.5;
+        color: #202020;
+
+      }
+      100% {
+        transform: translateZ(0);
+        opacity: 1;
+                color: #000;
+      }
+  }
