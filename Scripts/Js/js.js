@@ -1,3 +1,5 @@
+alert(' مـعلومة : هـذا الـمشروع لـيس مـكتمل');
+
 window.scroll(0,0)
 
 document.getElementById("Math").addEventListener("click",function(){
