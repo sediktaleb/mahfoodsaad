@@ -1,0 +1,115 @@
+@font-face {
+    src: url(../../../IMG/LEMONMILK-Bold.otf);
+    font-family: LEMONMILK;
+}
+
+body {
+    background-image: url("../../../IMG/bg2.jpg");
+    background-size: 65%;
+    background-position: 50%;
+}
+
+header {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    text-align: right;
+}
+
+.ex {
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 9px;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 10px 0 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#return {
+    margin-top: 20px;
+}
+
+.m7twa {
+    float: right;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 9px;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 10px 0 10px;
+    margin-left: 10px;
+}
+
+img {
+    background-color: white;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    float: inline-start;
+}
+
+.ex:hover {
+    text-decoration-line: underline;
+    font-size: 11px;
+    color: #E99C54;
+}
+
+img:hover {
+    background-color: #E99C54;
+}
+
+#lyce1 {
+    font-family: LEMONMILK;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 400px;
+}
+
+h1:hover {
+    text-decoration-line: underline;
+    color: #E99C54;
+}
+
+#face {
+    position: absolute;
+    bottom: 2%;
+    right: 50%;
+    size: 50mm;
+}
+
+@keyframes click {
+    0% {
+        font-size: 16px;
+    }
+    50% {
+        font-size: 17px;
+    }
+    100% {
+        font-size: 18px;
+    }
+    0% {
+        font-size: 16px;
+    }
+}
+
+@keyframes bonuce {
+    0% {
+        transform: translateZ(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateZ(30%);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}

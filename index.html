@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Scripts/Css/style.css">
+    <link rel="stylesheet" href="IMG/First.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -13,33 +13,49 @@
     <title>Lyceé Mahfood Saad</title>
 
 </head>
-
 <div class="alldiv">
 
     <header id="header">
 
-        <h1 style="text-align: center; "> Welcome - مرحــبا</h1>
-
+        <h1 style="text-align: center;"> Welcome - مرحــبا</h1>
     </header>
 
     <body>
-        <h1 id="Sedik">مـن اعـداد : طــالب الـصديق</h1>
-
-        <h1 style="text-align: center; font-size: 25px;"> ثـانـية ثــانوي</h1>
-        <img src="IMG/Arrow.png" id="Arrow">
         <div class="mwad">
+            <div class="steps" id="oneas" onclick="test()">
+                <h1>اولـى ثــانوي</h1>
 
-            <h1 class="Math" id="Math"> Math - الرياضيات </h1>
-            <img src="IMG/math.png" id="MImg">
-            <h1 class="Math" id="Physic"> Physic - الفيزياء </h1>
-            <img src="IMG/atom.png" id="PImg">
-            <h1 class="Math" id="Sience"> Sience - العلوم </h1>
-            <img src="IMG/lab.png" id="SImg">
+            </div>
+
+            <div class="steps" id="twoas">
+                <h1>ثانـية ثــانوي</h1>
+
+            </div>
+
+            <div class="steps" id="threas">
+                <h1>ثـالـثة ثــانوي</h1>
+
+            </div>
         </div>
 
 </div>
-<h1 id="lyce">Lyceé Mahfood Saad 2023/2024</h1>
 </body>
-<script src="Scripts/Js/js.js"></script>
+<script>
+    document.getElementById("twoas").addEventListener("click",function(){
+        window.open("2AS/index.html");
+        close();
+
+    });
+    document.getElementById("oneas").addEventListener("click",function(){
+        window.open("1AS/index.html");
+        close();
+
+    });
+    document.getElementById("threas").addEventListener("click",function(){
+
+        alert("Coming Soon - قـريــبا");
+    });
+</script>
+<script src="Scripts/Js/js.js "></script>
 
 </html>
